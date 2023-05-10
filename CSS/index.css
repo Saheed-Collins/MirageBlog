@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Nunito:wght@200;400;700&display=swap");
 * {
-  font-family: "Rubik", sans-serif;
+  font-family: "Times New Roman", Times, serif;
+  font-family: "Libre Baskerville", serif;
 }
 
 .heroPage {
@@ -10,4 +13,21 @@
   margin: 0 auto;
   justify-content: center;
   text-align: center;
+}
+.heroPage .HeroText {
+  margin-top: 5%;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+.heroPage .HeroText h1, .heroPage .HeroText h3 {
+  font-size: 60px;
+}
+.heroPage .HeroText h2 span {
+  text-decoration: underline;
+  font-style: italic;
+  font-family: cursive;
+}
+.heroPage .HeroText button {
+  color: rgb(255, 70, 0);
 }
