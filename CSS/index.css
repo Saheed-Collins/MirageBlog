@@ -27,9 +27,14 @@ body {
 .heroPage .Heeero .HeroTextLeft h1, .heroPage .Heeero .HeroTextLeft h3 {
   font-size: 80px;
   font-weight: 900;
+  line-height: 80px;
 }
 .heroPage .Heeero .HeroTextLeft h1 span, .heroPage .Heeero .HeroTextLeft h3 span {
   color: rgb(255, 70, 0);
+}
+.heroPage .Heeero .HeroTextLeft .welcome {
+  font-size: 24px;
+  color: rgb(178, 178, 178);
 }
 .heroPage .Heeero .HeroTextLeft h2 span {
   color: rgb(255, 70, 0);
@@ -60,9 +65,10 @@ body {
   font-weight: 300;
 }
 .heroPage .Explore {
+  width: 40%;
   display: flex;
-  perspective: 10px;
-  transform: perspective(300px) rotateX(20deg);
+  perspective: 5px;
+  transform: perspective(100px) rotateX(20deg);
   will-change: perspective;
   perspective-origin: center center;
   transition: all 1.3s ease-out;
@@ -85,15 +91,15 @@ body {
   opacity: 0;
 }
 .heroPage .left, .heroPage .center, .heroPage .right, .heroPage .leftEdge, .heroPage .rightEdge {
-  width: 200px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   transform-style: preserve-3d;
   border-radius: 10px;
   opacity: 0;
   transition: all 0.3s ease;
   transition-delay: 1s;
   position: relative;
-  background-position: center center;
+  background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
   background-color: rgb(40, 40, 40);
@@ -137,7 +143,7 @@ body {
 }
 .heroPage .explainer {
   font-weight: 300;
-  font-size: 2rem;
+  font-size: 20px;
   color: #fff;
   transition: all 0.6s ease;
   width: 100%;

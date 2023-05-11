@@ -21,6 +21,8 @@ body {
 
     .Heeero{
         margin-top: 5%;
+        // width: 80;
+        // border: 1px solid white;
     
     .HeroTextLeft{
         // width: 40%;
@@ -33,15 +35,21 @@ body {
         h1, h3{
             font-size: 80px;
             font-weight: 900;
+            line-height: 80px;
             span {
                 color: rgba(255,70,0,1);
             }
+        }
+        .welcome {
+            font-size: 24px;
+            color: rgb(178, 178, 178);
         }
         h2{
             span{
                 // text-decoration: underline;
                 color: rgba(255,70,0,1);
                 // font-style: italic;
+                
                 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             }
         }
@@ -79,17 +87,20 @@ body {
             background: radial-gradient(ellipse at bottom, #1b2735, #090a0f);
             font-weight: 300;
           }
-          .Explore {
-            display: flex;
-            perspective: 10px;
-            transform: perspective(300px) rotateX(20deg);
-            will-change: perspective;
-            perspective-origin: center center;
-            transition: all 1.3s ease-out;
-            justify-content: center;
-            transform-style: preserve-3d;
+  .Explore {
+    // border: 1px solid white;
+    width: 40%;
+    display: flex;
+    perspective: 5px;
+    transform: perspective(100px) rotateX(20deg);
+    will-change: perspective;
+    perspective-origin: center center;
+    transition: all 1.3s ease-out;
+    justify-content: center;
+    transform-style: preserve-3d;
           }
           .Explore:hover {
+            // border: 1px solid white;
             perspective: 1000px;
             transition: all 1.3s ease-in;
             transform: perspective(10000px) rotateX(0deg);
@@ -106,17 +117,15 @@ body {
           }
           
           .left, .center, .right, .leftEdge, .rightEdge {
-            width: 200px;
-            height: 150px;
+            width: 100px;
+            height: 100px;
             transform-style: preserve-3d;
             border-radius: 10px;
-            // border: 1px solid #fff;
-            // box-shadow: 0 0 20px 5px rgb(99, 26, 0);
             opacity: 0;
             transition: all .3s ease;
             transition-delay: 1s;
             position: relative;
-            background-position: center center;
+            background-position:  center;
             background-size: contain;
             background-repeat: no-repeat;
             background-color: rgb(40, 40, 40);
@@ -161,7 +170,7 @@ body {
           }
           .explainer {
             font-weight: 300;
-            font-size: 2rem;
+            font-size: 20px;
             color: #fff;
             transition: all .6s ease;
             width: 100%;
@@ -190,10 +199,9 @@ body {
               font-size: 12px;
             }
           }
-
-
-    
+   
 }
+
 .liner {
     background-color: black;
     .line {
