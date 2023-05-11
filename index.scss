@@ -79,7 +79,7 @@ body {
             background: radial-gradient(ellipse at bottom, #1b2735, #090a0f);
             font-weight: 300;
           }
-          .all {
+          .Explore {
             display: flex;
             perspective: 10px;
             transform: perspective(300px) rotateX(20deg);
@@ -89,7 +89,7 @@ body {
             justify-content: center;
             transform-style: preserve-3d;
           }
-          .all:hover {
+          .Explore:hover {
             perspective: 1000px;
             transition: all 1.3s ease-in;
             transform: perspective(10000px) rotateX(0deg);
@@ -119,13 +119,13 @@ body {
             background-position: center center;
             background-size: contain;
             background-repeat: no-repeat;
-            background-color: rgb(61, 16, 0);
+            background-color: rgb(40, 40, 40);
             cursor: pointer;
             background-blend-mode: color-burn;
             
             &:hover {
-              box-shadow: 0 0 30px 10px rgba(100, 100, 255, .6);
-            background-color: #ccf;
+              box-shadow: 0 0 30px 5px rgba(255, 203, 183, 0.4);
+            background-color: rgb(237, 237, 255);
             }
           }
           .text {
@@ -137,27 +137,27 @@ body {
             position: absolute;
             will-change: transform;
             color: #fff;
-            text-shadow: 0 0 5px rgba(100, 100, 255, .6)
+            text-shadow: 0 0 5px rgba(255, 150, 58, 0.6)
           }
           .leftEdge {
             transform: translateX(-60px) translateZ(-50px) rotateY(-10deg);
-            background-image: url(https://cdn3.iconfinder.com/data/icons/other-icons/48/organization-512.png);
+            background-image: url(https://www.iconfinder.com/icons/4476610/books_education_study_icon);
           }
           .left {
             transform: translateX(-30px) translateZ(-25px) rotateY(-5deg);
-            background-image: url(https://cdn3.iconfinder.com/data/icons/other-icons/48/creative_draw-512.png);
+            background-image: url(https://cdn3.iconfinder.com/data/icons/other-icons/48/creative_dra..-512.png);
           }
           .center {
             opacity: 1;
-            background-image: url(https://cdn3.iconfinder.com/data/icons/other-icons/48/app_window-512.png);
+            background-image: url(https://cdn3.iconfinder.com/data/icons/other-icons/48/app_windo..-512.png);
           }
           .right {
             transform: translateX(30px) translateZ(-25px) rotateY(5deg);
-            background-image: url(https://cdn3.iconfinder.com/data/icons/other-icons/48/cloud_weather-512.png);
+            background-image: url(https://cdn3.iconfinder.com/data/icons/other-icons/48/cloud_weathe..-512.png);
           }
           .rightEdge {
             transform: translateX(60px) translateZ(-50px) rotateY(10deg);
-            background-image: url(https://cdn3.iconfinder.com/data/icons/other-icons/48/search-512.png);
+            background-image: url(https://cdn3.iconfinder.com/data/icons/other-icons/48/searc..-512.png);
           }
           .explainer {
             font-weight: 300;
@@ -167,10 +167,9 @@ body {
             width: 100%;
             height: 100%;
             background-color: #303050;
-            background-image: radial-gradient(circle at center top, #cce, #33a);
+            background-image: radial-gradient(circle at center top, #cce, rgba(255,70,0,1));
             border-radius: 10px;
             text-shadow: 0 0 10px rgba(255, 255, 255, .8);
-            
             display: flex;
             justify-content: center;
             align-items: center;
